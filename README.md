@@ -21,7 +21,7 @@ A **API Criativa de Histórias** é uma API RESTful que gera conteúdos criativo
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/creative-story-api.git
+   git clone https://github.com/Gustavohenribra/creative-story-api.git
    cd creative-story-api
    ```
 2. Instale as dependências:
