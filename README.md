@@ -8,6 +8,7 @@ A **API Criativa de Histórias** é uma API RESTful que gera conteúdos criativo
 - Criar personagens únicos e descritivos.
 - Elaborar diálogos envolventes entre personagens.
 - Adicionar reviravoltas inesperadas para enriquecer histórias.
+- Criar cenários ricos e imersivos.
 
 ---
 
@@ -122,11 +123,29 @@ A **API Criativa de Histórias** é uma API RESTful que gera conteúdos criativo
 
 ---
 
+### 5. **Gerar Cenário**
+- **Endpoint**: `/api/generate-scenario`
+- **Método**: `POST`
+- **Corpo da Requisição**:
+  ```json
+  {
+    "type": "Floresta Mágica",
+    "elements": ["Árvores brilhantes", "Riacho", "Flores luminosas"],
+    "time": "Noite",
+    "emotion": "Encantador"
+  }
+  ```
+- **Resposta**:
+  ```json
+  {
+    "success": true,
+    "data": "Uma floresta mágica se estende diante de você. Árvores brilhantes emanam uma luz suave, iluminando um riacho que reflete as estrelas. Flores luminosas decoram o chão, criando uma atmosfera encantadora e misteriosa sob a luz da lua."
+  }
+  ```
+
+---
+
 ## Testando a API
 Você pode usar ferramentas como **Postman** ou **Insomnia** para testar a API. Certifique-se de que o servidor está rodando localmente em `http://localhost:3000`.
 
 ---
-
-## Licença
-Este projeto está licenciado sob a Licença MIT.
-# creative-story-api
